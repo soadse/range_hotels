@@ -17,9 +17,3 @@ btn_closed.addEventListener('click', () => {
         opcoes.style.display = "none"
     })
 })
-
-window.addEventListener('resize', () => {
-    if(window.innerWidth > 600) {
-        location.reload()
-    }
-})
