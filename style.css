@@ -14,6 +14,11 @@
 body {
     overflow-x: hidden;
 }
+header {
+    img {
+        width: 150px;
+    }
+}
 
 main {
     .sec01 {
@@ -104,9 +109,6 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        img {
-            padding: 48px;
-        }
         nav {
             display: flex;
             flex-direction: column;
@@ -253,10 +255,10 @@ footer {
 
     main {
         .sec01 {
-            background-image: linear-gradient(transparent, var(--cor01)), url(images/bg_topo_1198x670.jpg);
+            background-image: linear-gradient(transparent, var(--cor01)), url(images/hotel.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: center top;
+            background-position: center center;
             height: 400px;
             display: flex;
             justify-content: end;
